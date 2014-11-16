@@ -49,3 +49,8 @@ To make this library compatible with the Spark library format, the following ste
 * Moved /examples/ folder up to root directory
 * added files: LICENSE, spark.json
 * renamed `NS_energyShield.*` to `nightshade-energyshield.*`
+* .cpp: removed `Arduino.h` includes
+* .cpp: relinked `nightshade-energyshield.h` in `nightshade-energyshield.cpp`
+* .ino: updated setup() `!Serial` wait loop to Spark-compatible format
+* .cpp: moved `Wire.begin()` from object instantiation to `void setup()`
+* .cpp: changed binary address variable to `0b` Spark format
