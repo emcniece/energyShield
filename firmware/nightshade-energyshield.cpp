@@ -23,7 +23,8 @@ void NS_energyShield::address(char address)
 
 int NS_energyShield::voltage()
 {
-	byte voltageHB,voltageLB;
+	byte voltageHB = 0x0;
+	byte voltageLB = 0x0;
 	int V;
 
 	Wire.beginTransmission(_address);
@@ -41,7 +42,8 @@ int NS_energyShield::voltage()
 int NS_energyShield::current()
 {
 	int Iraw;
-	byte currentHB,currentLB;
+	byte currentHB = 0x0;
+	byte currentLB = 0x0;
 
 	// Reads high and low chars of the register
 	Wire.beginTransmission(_address);
@@ -73,7 +75,8 @@ int NS_energyShield::percent()
 int NS_energyShield::temperature()
 {
 	int T;
-	byte tempHB, tempLB;
+	byte tempHB = 0x0;
+	byte tempLB = 0x0;
 
 	// Reads high and low chars of the register
 	Wire.beginTransmission(_address);
