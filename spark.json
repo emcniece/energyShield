@@ -1,7 +1,7 @@
 {
   "name": "nightshade-energyshield",
   "author": "Aaron Liebold <info@ns-electric.com>",
-  "license": "Reserved BSD",
-  "version": "1.0",
+  "license": "Revised BSD",
+  "version": "1.0.0",
   "description": "A Spark Core adaptation library for the NightShade Electronics energyShield"
 }

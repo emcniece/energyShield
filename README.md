@@ -7,7 +7,7 @@ energyShield repo: https://github.com/nightshade-electronics/energyShield
 
 energyShield site: http://www.ns-electric.com/products/energyshield/
 
-Copyright (c) 2014, NightShade Electronics. Written by Aaron Liebold for NightShade Electronics.
+Copyright (c) 2014, NightShade Electronics. Written by Aaron Liebold for NightShade Electronics. Revised BSD license.
 
 
 
