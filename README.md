@@ -43,3 +43,9 @@ NS_energyShield <object>
 	Function: Reads the temperature from the fuel gauge
 	Returns: [int] Temperature in 0.125 oC increments (8 * Temperature)
 
+
+To make this library compatible with the Spark library format, the following steps were performed:
+
+* Moved /examples/ folder up to root directory
+* added files: LICENSE, spark.json
+* renamed `NS_energyShield.*` to `nightshade-energyshield.*`
